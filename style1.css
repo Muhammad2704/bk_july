@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Frank Ruhl Libre", serif;
+}
+header{
+    background-color: rgb(21, 21, 21);
+    color: rgb(238, 238, 238);
+    display: flex;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+}
+h1{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float:left;
+}
+
+nav ul li a {
+    
+    color: white;
+    text-align: right;
+    display:inline-flex;
+    padding: 14px 20px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/158/085/original/banner-with-black-headphones-and-copy-space-ready-for-a-text-vector.jpg);
+   background-size: cover;
+   height: 700px;
+   width: 1520px;
+   
+
+}
+.banner h1{
+    padding-top: 300px;
+    padding-left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner button{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: black;
+    color: white;
+}
+.banner button:hover{
+    color: black;
+    background-color: rgb(199, 54, 89);
+}
+.banner h4{
+    padding-left: 200px;
+}
+section{
+    background-color: black;
+    color: rgb(248, 237, 227);
+    padding: 10px;
+    text-align: center;
+   
+
+}
+
+
+.row{
+   
+   justify-content:center;
+   display:flex;
+}
+   
+.col{
+    margin: 10px;
+   
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+img{
+    padding-top: 10px;
+    border-radius: 30px;
+
+   
+}
+section span{
+    color: rgb(169, 29, 58);
+    font-size: 20px;
+}
+img:hover{
+    box-shadow: 4px 4px rgb(255, 0, 0);
+    
+}
+section button{
+    background-color:rgb(199, 54, 89);
+    height: 40px;
+    width: 100px;
+    margin:10px ;
+    color: aliceblue;
+
+    border-radius: 10px;
+    font-size: 15px;
+}
+section button:hover{
+background-color: aliceblue;
+color:black ;
+}
+.row2{
+    justify-content: center;
+    display: flex;
+}
+footer{
+    background-color: rgb(169, 29, 58);
+    color: rgb(248, 244, 225);
+    display: flex;
+    justify-content: space-around;
+    height: 460px;
+    padding-top: 10px;
+}
+footer h2{
+    text-shadow: 2px 2px 4px white;
+    color: black;
+}
+footer h4{
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+iframe{
+    border-radius: 5%;
+}
+footer h4:hover{
+    font-style: italic;
+   
+    color: black;
+}
